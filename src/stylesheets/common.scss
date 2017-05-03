@@ -143,9 +143,19 @@ table {
 }
 
 body {
-  background-color: #f4f2f2;
+  background-color: #181818;
   font-family: 'Open Sans';
   font-size: 15px;
   line-height: 1.4;
-  color: #101113;
+  color: #9BA0A0;
+  overflow: hidden;
+}
+
+#MainContent{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 200px);
+  height: calc(100% - 100px);
+  margin-left: 200px;
 }

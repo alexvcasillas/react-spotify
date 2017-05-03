@@ -1,15 +1,19 @@
 // ENGLISH LANGUAGE RESOURCES
 const RESOURCES = {
-  CHANGE_SPANISH: 'Change to Spanish',
-  CHANGE_ENGLISH: 'Change to English',
-  USER_TITLE: 'User',
-  XP_TITLE: 'Experience',
-  AGE_TITLE: 'Age',
-  APP_DESCRIPTION: 'React Create App with React Router and MobX and Internationalization.',
-  ACTIONS: {
-    INCREASE_XP: 'Increase Experience Points!',
-    CHANGE_NAME: 'Change My Name!',
-    CHANGE_LASTNAME: 'Change My Last Name!'
+  SIDENAV: {
+    EXPLORE_CONTENT: 'Explore content',
+    DISCOVER: 'Discover',
+    YOUR_MUSIC: 'Your music',
+    PLAYLISTS: 'Playlists',
+    FAVORITES: 'Favorites',
+    LOCAL_FILES: 'Local Files'
+  },
+  PLAYLIST: {
+    TITLE: 'Title',
+    ARTIST: 'Artist',
+    ALBUM: 'Album',
+    RELEASED: 'Released',
+    DURATION: 'Duration'
   }
 };
 

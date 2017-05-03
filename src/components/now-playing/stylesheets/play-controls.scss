@@ -1,0 +1,81 @@
+#PlayControls{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  overflow: hidden;
+
+  .track-controls{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .previous, .play-pause, .next, .dislike-song, .like-song{
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      padding: 5px;
+      transition: all 0.1s ease-in-out;
+
+      &:hover{
+        color: #ffffff;
+        transform: scale(1.2);
+      }
+
+    }
+
+    .play-pause{
+      svg{
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+  }
+
+  .track-progress{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .time{
+      font-size: 12px;
+    }
+
+    .progress{
+      position: relative;
+      width: 100%;
+      height: 4px;
+      background-color: #404040;
+      border-radius: 4px;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      &:hover{
+        .bar{
+          background-color: #1DB954;
+        }
+      }
+
+      .bar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 4px;
+        background-color: #A0A0A0;
+        border-radius: 4px;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+    }
+
+  }
+}

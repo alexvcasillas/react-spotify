@@ -1,0 +1,26 @@
+.song-item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  .title, .artist, .album, .released, .duration{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+  }
+
+  .title{
+    width: 40%;
+  }
+
+  .artist, .album{
+    width: 20%;
+  }
+
+  .released, .duration{
+    width: 10%;
+  }
+
+}

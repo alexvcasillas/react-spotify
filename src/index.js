@@ -32,7 +32,7 @@ const store = {
 const router = (
   <Provider {...store}>
     <Router history={browserHistory}>
-      <Route exact path="/" component={App} />
+      <Route path="/" component={App} />
     </Router>
   </Provider>
 );
